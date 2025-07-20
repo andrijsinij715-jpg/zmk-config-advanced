@@ -14,16 +14,16 @@ layers:
   - P
   - '['
   - ↹
-  - A
-  - S
-  - D
-  - F
+  - '&left_ctrl_shift LEFT_GUI A'
+  - '&left_win_alt LEFT_ALT S'
+  - '&left_ctrl_shift LCTRL D'
+  - '&left_ctrl_shift LEFT_SHIFT F'
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - '&right_ctrl_shift RIGHT_SHIFT J'
+  - '&right_ctrl_shift RCTRL K'
+  - '&right_win_alt L RIGHT_ALT'
+  - '&right_win_alt RIGHT_WIN SEMICOLON'
   - ''''
   - LEFT WIN
   - Z
