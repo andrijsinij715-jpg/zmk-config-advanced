@@ -14,16 +14,16 @@ layers:
   - P
   - '['
   - ↹
-  - '&left_ctrl_shift LEFT_GUI A'
-  - '&left_win_alt LEFT_ALT S'
-  - '&left_ctrl_shift LCTRL D'
-  - '&left_ctrl_shift LEFT_SHIFT F'
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - '&right_ctrl_shift RIGHT_SHIFT J'
-  - '&right_ctrl_shift RCTRL K'
-  - '&right_win_alt L RIGHT_ALT'
-  - '&right_win_alt RIGHT_WIN SEMICOLON'
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: RIGHT ALT, h: L}
+  - {t: ;, h: RIGHT WIN}
   - ''''
   - LEFT WIN
   - Z
