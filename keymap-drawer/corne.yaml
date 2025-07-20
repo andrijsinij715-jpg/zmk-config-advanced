@@ -52,28 +52,28 @@ layers:
   - Reset
   - Reset
   - EP TOG
-  - '8'
-  - '9'
-  - '0'
-  - $$mdi:backspace-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Vol Down
   - LEFT ARROW
   - UP ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - VOLUME UP
-  - ←
+  - {t: ▽, type: trans}
   - RIGHT SHIFT
   - RIGHT CONTROL
   - RIGHT ALT
   - RIGHT WIN
   - {t: ▽, type: trans}
   - Boot
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3

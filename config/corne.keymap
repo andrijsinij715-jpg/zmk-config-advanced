@@ -105,9 +105,9 @@ behaviors {
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE    &kp END         &kp PAGE_UP   &kp PAGE_DOWN   &kp HOME         &sys_reset         &sys_reset    &ext_power EP_TOG  &kp N8             &kp N9         &kp N0         &kp BSPC
-&kp C_VOL_DN  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_UP    &kp LEFT      &kp RIGHT_SHIFT    &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
-&bootloader   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4       &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_CLR     &bootloader
+&kp ESCAPE    &kp END         &kp PAGE_UP   &kp PAGE_DOWN   &kp HOME         &sys_reset         &sys_reset    &ext_power EP_TOG  &trans             &trans         &trans         &trans
+&kp C_VOL_DN  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_UP    &trans        &kp RIGHT_SHIFT    &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
+&bootloader   &trans          &trans        &trans          &trans           &trans             &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_CLR     &bootloader
                                             &kp LGUI        &trans           &trans             &kp RET       &kp BACKSPACE      &kp DEL
             >;
         };
