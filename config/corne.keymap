@@ -69,6 +69,7 @@ behaviors {
             hold-trigger-on-release;
             hold-trigger-key-positions = <20 22>;
         };
+    };
 
 / {
     keymap {
