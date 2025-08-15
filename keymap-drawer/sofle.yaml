@@ -53,7 +53,7 @@ layers:
   - ;
   - ':'
   - \
-  - D
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
