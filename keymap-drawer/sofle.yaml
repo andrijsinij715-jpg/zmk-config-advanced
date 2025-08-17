@@ -1,8 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  BAS: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '$$mdi:backspace-outline$$', CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, '{', LEFT SHIFT, A, S, D, F, G,
-    H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '}', '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$',
-    '$$mdi:apple-keyboard-control$$', LOW, ␣, ⏎, '-', LOW, RAI, '$$mdi:apple-keyboard-command$$']
+  BAS:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - $$mdi:backspace-outline$$
+  - CAPSLOCK
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '{'
+  - LEFT SHIFT
+  - A
+  - S
+  - {t: D, h: RAI}
+  - {t: F, h: '3'}
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '}'
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - LOW
+  - ␣
+  - ⏎
+  - '-'
+  - LOW
+  - RAI
+  - $$mdi:apple-keyboard-command$$
   LOW:
   - '`'
   - F1
@@ -92,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: ▽, type: trans}
   - CLCK
   - PAGE DOWN
@@ -123,7 +181,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
@@ -154,7 +212,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '4'
   - '5'
